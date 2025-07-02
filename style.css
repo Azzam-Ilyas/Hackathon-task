@@ -1,0 +1,1338 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@font-face{
+    font-family:KyivType Sans;
+    src: url(./Font/KyivTypeSans-Heavy-.otf);
+ 
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+     background-color: #222021;
+     background-image: url(./Assets/imag.png);
+     background-repeat: no-repeat;
+
+}
+
+
+
+.logo img{
+    width: 10vw;
+    height: 9.38vh;
+    margin: 3vw;
+    
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  height: 20vh; 
+  padding: 0 5vw; 
+  font-size: large;
+} 
+
+
+.logo img {
+  width: 10vw;
+  min-width: 150px; 
+  height: auto;     
+  margin: 0;        
+}
+
+
+
+.nav-links ul {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+  gap: 4rem; 
+  font-weight: bold;
+}
+
+.nav-links ul li a {
+  color: rgb(230, 227, 227);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links ul li a:hover {
+  color: #728BAD;
+}
+
+
+
+
+.logo{
+    width: 50%;
+   
+}
+
+
+
+
+.nav-links ul li a {
+    color: rgb(230, 227, 227);
+    text-decoration: none;
+    
+} 
+
+
+
+
+.herosection{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-card{
+    height: 700px;
+    width: 82.9vw;
+    background-color: #1e0d06;
+    border-radius: 30px;
+    padding: 50px;
+    box-shadow: 0px 4px 52px 0 #F5F5F52B;
+
+
+}
+
+.img-card h1 {
+  color: white;
+  font-family:KyivType Sans ;
+  font-size: 90px;
+
+}
+
+.img-card p{
+    color:#FFDBBB;
+    font-family: Inter;
+    font-size: 30px;
+}
+
+
+.h-btn button{
+  background-color: #728BAD;
+  border: none;
+  border-radius: 42px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  width: 150px;
+  height: 40px;
+  font-weight: bold;
+  font-size: larger;
+  margin: 40px 0 0 0;
+}
+
+
+.wood-card .f-img {
+  margin-top: 75px;
+}
+
+
+
+.worksection h1{
+  color: whitesmoke;
+  font-size: 90px;
+  font-family:KyivType Sans ;
+  margin-top: 25dvw;
+  margin-left: 9rem;
+}
+
+
+.line-1{
+  position: absolute;
+  top: 200px;
+  margin-left: 40rem;
+ 
+}
+
+.image-1 {
+  height: 205px;
+  width: 205px;
+  position: absolute;
+  right: 30px;
+  top: 200px;
+}
+.image-2 {
+  height: 205px;
+  width: 205px;
+  position: absolute;
+  right: 320px;
+  top: 420px;
+}
+.image-3 {
+  height: 205px;
+  width: 205px;
+  position: absolute;
+  right: 30px;
+  top: 530px;
+}
+
+.align{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.wood-card{
+    width: 30%;
+    padding: 20px;
+    font-family: inter;
+  
+    
+}
+.wood-card img{
+    width: 205px;
+    height: 205px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+
+}
+.wood-card h3{
+    color: white;
+    margin-top: 30px;
+}
+.wood-card ul{
+ margin-left: 9vw;
+ 
+}
+
+
+.wood-card ul li {
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;  
+    align-items: flex;      
+    color: white;
+    list-style: none;
+    padding: 5px 0;
+    gap: 10px;                    
+    line-height: 1.4;             
+}
+
+.wood-card ul li i {
+    margin-top: 3px;            
+}
+
+
+.portfolio-showcase {
+  height: 500px;
+  width: 90%;
+}
+
+.slide-image {
+  margin: 0 auto;
+  width: 65%;
+}
+
+.benefits-section {
+  height: 950px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  align-items: center;
+  gap: 50px;
+}
+
+.benefits-content {
+  height: 450px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.benefits-media img {
+  height: 386px;
+  width: 609px;
+}
+
+.benefits-list {
+  height: 386px;
+  width: 37%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  font-size: 26px;
+}
+
+.cta-button {
+  height: 60px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+.cta-button button {
+  height: 58px;
+  width: 472px;
+  background-color: #728bad;
+  color: white;
+  transition: 0.3s;
+  font-size: 24px;
+  font-weight: 600;
+  border-radius: 30px;
+  border: none;
+}
+
+.cta-button button:hover {
+  cursor: pointer;
+  background-color: #5d6f8a;
+}
+
+.company-profile {
+  height: 640px;
+  display: flex;
+  justify-content: start;
+  margin-top: 90px;
+}
+
+.profile-container {
+  height: 100%;
+  width: 1145px;
+  background-color: #1e0c06;
+  border-radius: 0 40px 40px 0;
+  display: flex;
+  box-shadow: 0 0 14px white;
+}
+
+.spacer {
+  height: 100%;
+  width: 20%;
+}
+
+.profile-text {
+  width: 45%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+
+.profile-text h1 {
+  color: white;
+  font-size: 70px;
+  text-transform: uppercase;
+}
+
+.profile-text p {
+  color: white;
+  font-size: 26px;
+}
+
+.profile-text span {
+  font-weight: 600;
+}
+
+.gallery-main {
+  height: 280px;
+  width: 280px;
+  position: relative;
+  top: 130px;
+  left: 100px;
+  z-index: 999;
+}
+
+.gallery-secondary {
+  height: 180px;
+  width: 180px;
+}
+
+.gallery-secondary:nth-of-type(2) {
+  position: relative;
+  right: 20px;
+  top: -10px;
+}
+
+.gallery-secondary:nth-of-type(3) {
+  position: relative;
+  left: 230px;
+  top: 150px;
+}
+
+.contact-form-section {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.section-header {
+  height: 180px;
+  width: 80%;
+  margin-top: 70px;
+  font-family:KyivType Sans;
+
+}
+
+.section-header h1 {
+  color: whitesmoke;
+  font-size: 90px;
+  font-family:KyivType Sans ;
+  margin-top: 25dvw;
+  margin-left: 9rem;
+}
+
+.form-container {
+  height: 500px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inquiry-form {
+  width: 46%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-description {
+  height: 100%;
+  width: 40%;
+  color: white;
+  font-size: 26px;
+}
+
+.form-input {
+  height: 70px;
+  padding: 30px;
+  color: gray;
+  border: 4px solid #728bad;
+  border-radius: 40px;
+  background-color: transparent;
+  outline: none;
+}
+
+.form-message {
+  height: 180px;
+  padding: 20px;
+  background-color: transparent;
+  color: gray;
+  border: 4px solid #728bad;
+  border-radius: 40px;
+}
+
+.submit-button {
+  height: 50px;
+  width: 180px;
+  background-color: #728bad;
+  color: white;
+  border-radius: 30px;
+  transition: 0.3s;
+  border: none;
+}
+
+.submit-button:hover {
+  cursor: pointer;
+  background-color: #5d6f8a;
+}
+
+.page-footer {
+  height: 250px;
+  background-color: #222021;
+  box-shadow: 0 0 15px white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  width: 100%;
+}
+
+.contact-info {
+  font-size: 26px;
+  color: white;
+}
+
+.footer-content img {
+  height: 83px;
+  width: 197px;
+}
+
+.policy-link {
+  color: white;
+  font-size: 18px;
+}
+
+
+
+.project-section {
+  height: 850px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  align-items: center;
+  gap: 30px;
+}
+.project-title {
+  height: 250px;
+  width: 60%;
+  margin-top: 70px;
+}
+.project-title h1 {
+  font-size: 80px;
+  font-family: "KyivType Sans";
+  color: white;
+  text-transform: uppercase;
+}
+.materials-container {
+  height: 500px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+.materials-inner {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.material-item {
+  height: 100%;
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.material-item img {
+  height: 205px;
+  width: 205px;
+}
+.material-name {
+  height: 50px;
+  color: white;
+  font-size: 30px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.material-description {
+  height: 230px;
+  width: 100%;
+  color: white;
+  font-size: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.portfolio-section {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+.portfolio-header {
+  height: 180px;
+  width: 60%;
+  margin-top: 70px;
+}
+.portfolio-header h1 {
+  font-size: 80px;
+  font-family: "KyivType Sans";
+  color: white;
+}
+.gallery-slider {
+  height: 500px;
+  width: 90%;
+}
+.carousel-item img {
+  margin: 0% auto;
+}
+.d-block {
+  width: 65%;
+}
+.benefits-section {
+  height: 950px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  align-items: center;
+  gap: 50px;
+}
+.benefits-content {
+  height: 450px;
+  width: 80%;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  align-items: center;
+}
+.benefits-image img {
+  height: 386px;
+  width: 609px;
+}
+.benefits-text {
+  height: 386px;
+  width: 37%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  font-size: 26px;
+}
+.consultation-btn {
+  height: 60px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+.consultation-btn button {
+  height: 58px;
+  width: 472px;
+  background-color: #728bad;
+  color: white;
+  transition: 0.3s;
+  font-size: 24px;
+  font-weight: 600;
+  border-radius: 30px;
+  border: none;
+}
+.consultation-btn button:hover {
+  cursor: pointer;
+  background-color: #5d6f8a;
+}
+.company-info {
+  height: 640px;
+  display: flex;
+  justify-content: start;
+  margin-top: 90px;
+}
+.info-container {
+  height: 100%;
+  width: 1145px;
+  background-color: #1e0c06;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+  display: flex;
+  box-shadow: 0px 0px 14px white;
+}
+.spacer {
+  height: 100%;
+  width: 20%;
+}
+.company-text {
+  width: 45%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.company-text h1 {
+  color: white;
+  font-size: 70px;
+  font-family: "Kyivtype Sans";
+  text-transform: uppercase;
+}
+.company-text p {
+  color: white;
+  font-size: 26px;
+}
+.company-text span {
+  font-weight: 600;
+}
+.team-photo1 {
+  height: 280px;
+  width: 280px;
+  position: relative;
+  top: 130px;
+  left: 100px;
+  z-index: 999;
+}
+.team-photo2 {
+  height: 180px;
+  width: 180px;
+  position: relative;
+  right: 20px;
+  top: -10px;
+}
+.team-photo3 {
+  height: 180px;
+  width: 180px;
+  position: relative;
+  left: 230px;
+  top: 150px;
+}
+.inquiry-section {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+.inquiry-title {
+  height: 180px;
+  width: 80%;
+  margin-top: 70px;
+  display: flex;
+  justify-content: end;
+}
+.inquiry-title h1 {
+  font-size: 80px;
+  font-family: "KyivType Sans";
+  color: white;
+  text-transform: uppercase;
+}
+.inquiry-content {
+  height: 500px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.inquiry-content .contact-form {
+  width: 46%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.inquiry-description {
+  height: 100%;
+  width: 40%;
+  color: white;
+  font-size: 26px;
+}
+.input-field {
+  height: 70px;
+  padding: 30px;
+  color: gray;
+  border: 4px solid #728bad;
+  border-radius: 40px;
+  background-color: transparent;
+  outline: none;
+}
+.textarea-field {
+  height: 180px;
+  padding: 20px;
+  background-color: transparent;
+  color: gray;
+  border: 4px solid #728bad;
+  border-radius: 40px;
+}
+.send-button {
+  height: 50px;
+  width: 180px;
+  background-color: #728bad;
+  color: white;
+  border-radius: 30px;
+  transition: 0.3s;
+  border: none;
+}
+.send-button:hover {
+  cursor: pointer;
+  background-color: #5d6f8a;
+}
+.page-footer {
+  height: 250px;
+  background-color: #222021;
+  box-shadow: 0px 0px 15px 0px white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.footer-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  width: 100%;
+}
+.contact-number {
+  font-size: 26px;
+  color: white;
+}
+.footer-info img {
+  height: 83px;
+  width: 197px;
+}
+.location-section {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -150px;
+}
+.location-content {
+  height: 500px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.location-text {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 30px;
+}
+.location-text h1 {
+  font-size: 70px;
+  font-family: "KyivType Sans";
+  color: white;
+  text-transform: uppercase;
+}
+.location-map {
+  height: 100%;
+  width: 40%;
+}
+
+
+
+
+
+.portfolio-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  padding: 40px 0;
+}
+
+.portfolio-header {
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+.portfolio-header h1 {
+  font-size: 80px;
+  font-family: "KyivType Sans";
+  color: white;
+}
+
+.gallery-slider {
+  width: 90%;
+}
+
+.gallery-slider .carousel-item img {
+  margin: 0 auto;
+  width: 65%;
+}
+
+
+.benefits-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  align-items: center;
+  gap: 50px;
+  padding: 90px 0;
+}
+
+.benefits-content {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.benefits-image img {
+  height: 386px;
+  width: 609px;
+  border-radius: 20px;
+}
+
+.benefits-text {
+  width: 37%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 26px;
+  gap: 20px; 
+}
+
+.consultation-btn {
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.consultation-btn button {
+  height: 58px;
+  width: 472px;
+  background-color: #728bad;
+  color: white;
+  transition: 0.3s;
+  font-size: 24px;
+  font-weight: 600;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.consultation-btn button:hover {
+  background-color: #5d6f8a;
+}
+
+.company-info {
+  display: flex;
+  justify-content: start;
+  margin-top: 90px;
+}
+
+.info-container {
+  height: 640px;
+  width: 1145px;
+  background-color: #1e0c06;
+  border-radius: 0 40px 40px 0;
+  display: flex;
+  box-shadow: 0 0 14px white;
+}
+
+.info-container .spacer {
+  height: 100%;
+  width: 20%;
+}
+
+.company-text {
+  width: 45%;
+  height: 100%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+
+.company-text h1 {
+  color: white;
+  font-size: 70px;
+  font-family: "Kyivtype Sans";
+  text-transform: uppercase;
+}
+
+.company-text p {
+  color: white;
+  font-size: 26px;
+  font-family: 'Inter', sans-serif;
+}
+
+.company-text span {
+  font-weight: 600;
+}
+
+.team-photo1 {
+  height: 280px;
+  width: 280px;
+  position: relative;
+  top: 130px;
+  left: 100px;
+  z-index: 999;
+}
+
+.team-photo2 {
+  height: 180px;
+  width: 180px;
+  position: relative;
+  right: 20px;
+  top: -10px;
+}
+
+.team-photo3 {
+  height: 180px;
+  width: 180px;
+  position: relative;
+  left: 230px;
+  top: 150px;
+}
+
+.inquiry-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  padding: 40px 0;
+}
+
+.inquiry-title {
+  width: 80%;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: end;
+}
+
+.inquiry-title h1 {
+  font-size: 80px;
+  font-family: "KyivType Sans";
+  color: white;
+  text-transform: uppercase;
+}
+
+.inquiry-content {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-form {
+  width: 46%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inquiry-description {
+  width: 40%;
+  color: white;
+  font-size: 26px;
+  font-family: 'Inter', sans-serif;
+}
+
+.input-field,
+.textarea-field {
+  padding: 20px 30px;
+  color: white; 
+  border: 4px solid #728bad;
+  border-radius: 40px;
+  background-color: transparent;
+  outline: none;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+}
+
+.input-field {
+  height: 70px;
+}
+
+.textarea-field {
+  height: 180px;
+  resize: none; 
+}
+
+.send-button {
+  height: 50px;
+  width: 180px;
+  background-color: #728bad;
+  color: white;
+  border-radius: 30px;
+  transition: 0.3s;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #5d6f8a;
+}
+
+
+.page-footer {
+  height: 250px;
+  background-color: #1e1c1d; 
+  box-shadow: 0px 0px 15px 0px white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 100px;
+}
+
+.footer-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  width: 100%;
+}
+
+.contact-number {
+  font-size: 26px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer-info img {
+  height: 83px;
+  width: auto; 
+}
+
+.policy-link {
+  color: white;
+  font-size: 18px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .navbar {
+    flex-direction: column; 
+    height: auto;           
+    padding: 20px 0;        
+    gap: 30px;              
+  }
+
+  .logo,
+  .nav-links {
+    width: 100%;            
+    justify-content: center; 
+  }
+
+  .logo img {
+    width: 150px; 
+    margin: 0;    
+  }
+
+  .nav-links ul {
+    flex-direction: column; 
+    align-items: center;    
+    gap: 1.5rem;           
+  }
+
+  .nav-links ul li a {
+    font-size: 18px; 
+  }
+
+ 
+  .herosection {
+    justify-content: center; 
+    padding: 0 15px;        
+    margin-top: 20px;       
+  }
+
+  .img-card {
+    width: 95vw;    
+    height: auto;   
+    padding: 30px 20px;  
+    text-align: center; /
+  }
+
+  .img-card h1 {
+    font-size: 48px;
+  }
+
+  .img-card p {
+    font-size: 18px; 
+  }
+
+  .h-btn button {
+    width: 140px;
+    height: 40px;
+    font-size: medium; 
+    margin-top: 30px; 
+  }
+
+  
+  .image-1,
+  .image-2,
+  .image-3,
+  .line-1 {
+    display: none;
+  }
+  
+
+  .project-section {
+    margin-top: 110px;
+    margin-bottom: -100px;
+  }
+
+  .project-title {
+    height: auto;
+    width: 90%;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .project-title h1 {
+    font-size: 36px;
+  }
+
+  .materials-container {
+    height: auto;
+    width: 90%;
+  }
+
+  .materials-inner {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .material-item {
+    width: 100%;
+  }
+
+  .material-item img {
+    height: 120px;
+    width: 120px;
+  }
+
+  .material-item h3 {
+    font-size: 24px;
+  }
+
+  .material-item ul li {
+    font-size: 16px;
+    justify-content: center;
+  }
+
+  .portfolio-section {
+    margin-top: 40px;
+    margin-bottom: -100px;
+  }
+  
+  .portfolio-header {
+    height: auto;
+    width: 90%;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .portfolio-header h1,
+  .inquiry-title h1 {
+    font-size: 36px;
+  }
+  
+  .gallery-slider {
+    height: 250px;
+  }
+
+  .benefits-section {
+    height: auto;
+    width: 100%;
+    gap: 30px;
+    padding: 40px 0;
+  }
+
+  .benefits-content {
+    width: 90% !important;
+    flex-direction: column-reverse !important;
+    gap: 30px;
+  }
+
+  .benefits-image img {
+    height: auto;
+    width: 100%;
+  }
+
+  .benefits-text {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .consultation-btn {
+    width: 100%;
+  }
+
+  .consultation-btn button {
+    font-size: 17px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .company-info {
+    height: auto;
+    margin-top: 40px;
+  }
+
+  .info-container {
+    height: auto;
+    width: 95vw;
+    flex-direction: column;
+    border-radius: 40px; /* Apply radius to all corners on mobile */
+  }
+
+  .info-container .spacer {
+    display: none;
+  }
+
+  .company-text {
+    width: 100%;
+    gap: 20px;
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .company-text h1 {
+    font-size: 36px;
+  }
+
+  .company-text p {
+    font-size: 16px;
+  }
+  
+  .inquiry-section {
+    height: auto;
+  }
+
+  .inquiry-title {
+    width: 90%;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .inquiry-content {
+    flex-direction: column-reverse;
+    width: 90%;
+    height: auto;
+    gap: 40px;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .inquiry-description {
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .input-field {
+    height: 50px;
+  }
+  .page-footer {
+    height: auto;
+    padding: 40px 20px;
+    gap: 30px;
+  }
+  
+  .footer-info {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer-info img {
+    height: 70px;
+  }
+
+  .contact-number {
+    font-size: 17px;
+  }
+
+} 
